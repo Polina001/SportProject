@@ -14,7 +14,7 @@ namespace Sport.Data
 
         public DbSet<Coach> CoachDb { get; set; }
 
-        public Context() : base()
+        public Context() : base("localsql")
         {
 
         }
