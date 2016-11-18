@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Sport.Data
 {
-    public class Class1
+    class Player
     {
+        public int PlayerID { get; set; }
+        public string Name { get; set; }
+        public Team Team { get; set; }
     }
 }
